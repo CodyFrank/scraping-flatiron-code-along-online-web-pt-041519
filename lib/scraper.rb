@@ -23,8 +23,8 @@ class Scraper
 
   def get_courses
     get_page
-  doc.css(".post same-height-left")
-  binding.pry
+    doc.css(".post same-height-left")
+    binding.pry
   end
 
 end
