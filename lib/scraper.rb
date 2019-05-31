@@ -22,9 +22,7 @@ class Scraper
   end
 
   def get_courses
-    get_page
-    doc.css(".post same-height-left")
-    binding.pry
+    self.get_page.css(".post")
   end
 
 end
