@@ -21,4 +21,8 @@ class Scraper
     doc = Nokogiri::HTML(html)
   end
 
+  def get_courses
+  puts doc.css(".post same-height-left")
+  end
+
 end
