@@ -25,4 +25,8 @@ class Scraper
   self.get_page.css(".post-holder")
   end
 
+  def make_courses
+    
+  end
+
 end
