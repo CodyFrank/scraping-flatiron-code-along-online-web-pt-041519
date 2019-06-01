@@ -22,7 +22,7 @@ class Scraper
   end
 
   def get_courses
-    puts self.get_page.css(".post")[0]
+    puts self.get_page.css(".post")[1]
     self.get_page.css(".post")
   end
 
