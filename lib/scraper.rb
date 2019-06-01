@@ -32,7 +32,6 @@ class Scraper
       course.schedule = block.css(".date").text
       course.description = block.css("p").text
     end
-    end
   end
 
 end
